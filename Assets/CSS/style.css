@@ -3,10 +3,13 @@
 }
 
 /* background image */
+html,
 body{
     background-image: url(/Assets/Images/gravel.png);
     margin: 0;
     padding: 0;
+    height: 100%;
+    position: relative;
 }
 
 /* header bar styling */
@@ -46,7 +49,6 @@ nav {
 /* button group */
 .button-grp {
     float: right;
-    height: 100%;
     margin: 20px 0 0 0;
 }
 .btn {
@@ -75,10 +77,11 @@ nav {
      width: 960px;
      margin: 100px auto;
      background-color: white;
-     padding-bottom: 20px;
+     padding-bottom: 60px;
      overflow: hidden;
      position: relative;
      clear: both;
+     min-height: 100%;
  }
 
  .Section-Title{
@@ -92,8 +95,8 @@ nav {
 
 /* About Me Page */
  #headshot {
-     height: 175px;
-     width: 125px;
+     height: 210px;
+     width: 150px;
      float: left;
      clear: right;
      margin: 0 20px 20px 25px;
@@ -141,7 +144,102 @@ nav {
     padding: 10px 0;
     bottom: 60px;
 }
+
+/* Contact Info Page */
+
+input {
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    width: 910px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background-color: white;
+    color: Grey;
+    border: solid 1px #424242;
+    transition-duration: 0.3s;
+    margin: 10px 25px;
+  }
+  
+  input:hover {
+    background-color: darkgray;
+    color: white;
+  }
+
+  input:hover::placeholder {
+    color: white;
+}
+
+input:focus::placeholder {
+    color: white;
+}
+
+  input:focus{
+      border: solid 3px black;
+      outline: none;
+      background-color: darkgray;
+      color: white;
+  }
+  
+  textarea {
+    width: 910px;
+    height: 110px;
+    padding: 15px;
+    background-color: white;
+    color: #726659;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    border: solid 1px #424242;
+    transition-duration: 0.3s;
+    margin: 10px 25px;
+  }
+  
+  textarea:hover {
+    background: darkgray;
+    color: white;
+  }
+
+  textarea:hover::placeholder {
+    color: white;
+}
+
+textarea:focus::placeholder {
+    color: white;
+}
+
+  textarea:focus {
+    border: solid 3px black;
+    outline: none;
+    background: darkgray;
+    color: white;
+  }
+  
+  .submit {
+    width: 200px;
+    margin: auto 25px;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    color: white;
+    border: solid 1px #424242;
+    background-color: darkgrey;
+  }
+  
+  .submit:hover {
+    background-color: #424242; 
+  }
+
+  .contact {
+    overflow: auto;
+    padding-bottom: 60px;
+  }
+
  /* footer divs */
+
+ .sticky-footer {
+    position: relative;
+    margin-top: -70px;
+    height: 70px;
+    clear: both;
+  }
 
  .teal-div {
      background-color: #4aaaa5;
@@ -154,6 +252,7 @@ nav {
     height: 60px;
     width: 100%;
     position: relative;
+    bottom: 0;
  }
  span{
      color: white;
