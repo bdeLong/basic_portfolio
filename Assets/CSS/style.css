@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /* background image */
 body{
     background-image: url(/Assets/Images/gravel.png);
@@ -5,9 +9,9 @@ body{
     padding: 0;
 }
 
-/* nav bar styling */
+/* header bar styling */
 
-nav{
+header{
     background-color: White;
     height: 60px;
     width: 100%;
@@ -18,13 +22,12 @@ nav{
     z-index: 1;
 }
 
-/* Name */
-header {
+/* Name & Buttons */
+nav {
    
     color: white;
     height: 60px;
     width: 960px;
-    position: relative;
     margin: 0 auto;
 }
 
@@ -33,7 +36,7 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     margin: 0 0 0 0;
-    height: 20px;
+    height: 60px;
     width: 200px;
     text-align: center;
     float: left;
@@ -56,6 +59,11 @@ header {
     text-decoration: none;
   }
 
+  .current {
+    background-color: darkgray;
+    color: white;
+  }
+
   /* for the borders on the portfolio button */
   .port-btn {
       border-right: 1px solid lightgray;
@@ -68,6 +76,9 @@ header {
      margin: 100px auto;
      background-color: white;
      padding-bottom: 20px;
+     overflow: hidden;
+     position: relative;
+     clear: both;
  }
 
  .Section-Title{
@@ -95,11 +106,46 @@ header {
      margin-right: 25px;
  }
 
+/* Portfolio Page */
+.thumbnail {
+    float: left;
+    width: 30%;
+    margin: 0 20px 20px 25px;
+    position: relative;
+    overflow: hidden;
+    height: 180px;
+    width: 250px;
+}
+
+.thumbnail img{
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+    width: 960px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.thumb-title{
+    background-color:rgba(74,170,165,.8);
+    color: white;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 60px;
+}
  /* footer divs */
 
  .teal-div {
      background-color: #4aaaa5;
-     height: 5px;
+     height: 10px;
      width: 100%;
  }
 
