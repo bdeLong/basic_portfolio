@@ -1,0 +1,116 @@
+/* background image */
+body{
+    background-image: url(/Assets/Images/gravel.png);
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar styling */
+
+nav{
+    background-color: White;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Name */
+header {
+   
+    color: white;
+    height: 60px;
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#name {
+    padding: 15px 20px 25px 20px ;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    margin: 0 0 0 0;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* button group */
+.button-grp {
+    float: right;
+    height: 100%;
+    margin: 20px 0 0 0;
+}
+.btn {
+    color:grey;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    width: 100px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #port-btn {
+      border-right: 1px solid lightgray;
+      border-left: 1px solid lightgray;
+  }
+
+  /* about me section */
+ article{
+     width: 960px;
+     margin: 100px auto;
+     background-color: white;
+     overflow: auto;
+     padding-bottom: 20px;
+ }
+
+ #about-me{
+     height: 60px;
+     border-bottom: 2px solid lightgray;
+     margin: 25px;
+     padding-top: 20px;
+     color: #4aaaa5;
+     font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+
+ img {
+     height: 175px;
+     width: 125px;
+     float: left;
+     clear: right;
+     margin: 0 20px 20px 25px;
+ }
+
+ p {
+     font-size: 16px;
+     line-height: 24px;
+     margin-left: 25px;
+     margin-right: 25px;
+ }
+
+ /* footer divs */
+
+ .teal-div {
+     background-color: #4aaaa5;
+     height: 5px;
+     width: 100%;
+ }
+
+ footer{
+    background-color: grey;
+    height: 60px;
+    width: 100%;
+    position: relative;
+ }
+ span{
+     color: white;
+     position: absolute;
+     bottom: 15px;
+     left: 50%;
+ }
