@@ -28,7 +28,7 @@ header {
     margin: 0 auto;
 }
 
-#name {
+.name {
     padding: 15px 20px 25px 20px ;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
@@ -56,21 +56,21 @@ header {
     text-decoration: none;
   }
 
-  #port-btn {
+  /* for the borders on the portfolio button */
+  .port-btn {
       border-right: 1px solid lightgray;
       border-left: 1px solid lightgray;
   }
 
-  /* about me section */
+  /* Content section */
  article{
      width: 960px;
      margin: 100px auto;
      background-color: white;
-     overflow: auto;
      padding-bottom: 20px;
  }
 
- #about-me{
+ .Section-Title{
      height: 60px;
      border-bottom: 2px solid lightgray;
      margin: 25px;
@@ -79,7 +79,8 @@ header {
      font-family: 'Georgia', Times, Times New Roman, serif;
  }
 
- img {
+/* About Me Page */
+ #headshot {
      height: 175px;
      width: 125px;
      float: left;
@@ -87,7 +88,7 @@ header {
      margin: 0 20px 20px 25px;
  }
 
- p {
+ #about-me {
      font-size: 16px;
      line-height: 24px;
      margin-left: 25px;
