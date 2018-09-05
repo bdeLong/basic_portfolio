@@ -227,11 +227,6 @@ textarea:focus::placeholder {
     background-color: #424242; 
   }
 
-  .contact {
-    overflow: auto;
-    padding-bottom: 60px;
-  }
-
  /* footer divs */
 
  .sticky-footer {
