@@ -5,7 +5,7 @@
 /* background image */
 html,
 body{
-    background-image: url("../Images/gravel.png");
+    background-image: url("../Images/connectwork.png");
     margin: 0;
     padding: 0;
     height: 100%;
@@ -15,7 +15,7 @@ body{
 /* header bar styling */
 
 header{
-    background-color: White;
+    background-color: darkslategrey;
     height: 60px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -28,7 +28,7 @@ header{
 /* Name & Buttons */
 nav {
    
-    color: white;
+    color: lightgrey;
     height: 60px;
     width: 960px;
     margin: 0 auto;
@@ -52,7 +52,7 @@ nav {
     margin: 20px 0 0 0;
 }
 .btn {
-    color:grey;
+    color:lightgrey;
     font-family: Trebuchet MS;
     font-size: 16px;
     height: 20px;
@@ -82,7 +82,7 @@ nav {
  article{
      width: 960px;
      margin: 100px auto;
-     background-color: white;
+     background-color: darkslategrey;
      padding-bottom: 60px;
      overflow: hidden;
      position: relative;
@@ -113,6 +113,7 @@ nav {
      line-height: 24px;
      margin-left: 25px;
      margin-right: 25px;
+     color: lightgrey;
  }
 
 /* Portfolio Page */
@@ -159,13 +160,16 @@ input {
     width: 910px;
     height: 40px;
     padding: 0px 15px 0px 15px;
-    background-color: white;
-    color: Grey;
+    background-color: lightgrey;
+    color: darkslategrey;
     border: solid 1px #424242;
     transition-duration: 0.3s;
     margin: 10px 25px;
   }
-  
+input::placeholder{
+    color: darkslategrey;
+}
+
 input:hover {
     background-color: darkgray;
     color: white;
@@ -176,7 +180,7 @@ input:hover::placeholder {
 }
 
 input:focus::placeholder {
-    color: white;
+    color: darkslategrey;
 }
 
 input:focus{
@@ -190,8 +194,8 @@ textarea {
     width: 910px;
     height: 100px;
     padding: 15px;
-    background-color: white;
-    color: #726659;
+    background-color: lightgrey;
+    color: darkslategrey;
     font-family: Trebuchet MS;
     font-size: 16px;
     border: solid 1px #424242;
@@ -199,6 +203,9 @@ textarea {
     margin: 10px 25px;
   }
   
+textarea::placeholder{
+    color: darkslategrey;
+}
 textarea:hover {
     background: darkgray;
     color: white;
@@ -209,7 +216,7 @@ textarea:hover::placeholder {
 }
 
 textarea:focus::placeholder {
-    color: white;
+    color: darkslategrey;
 }
 
 textarea:focus {
@@ -224,13 +231,14 @@ textarea:focus {
     margin: 40px 25px;
     font-family: Trebuchet MS;
     font-size: 20px;
-    color: white;
+    color: darkslategrey;
     border: solid 1px #424242;
-    background-color: darkgrey;
+    background-color: lightgrey;
   }
   
 .submit:hover {
-    background-color: #424242; 
+    background-color: #424242;
+    border: 2px solid black;
   }
 
  /* footer divs */
