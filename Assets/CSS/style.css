@@ -5,7 +5,7 @@
 /* background image */
 html,
 body{
-    background-image: url("/Assets/Images/gravel.png");
+    background-image: url("../Images/gravel.png");
     margin: 0;
     padding: 0;
     height: 100%;
