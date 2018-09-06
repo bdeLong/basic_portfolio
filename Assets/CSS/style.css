@@ -62,6 +62,11 @@ nav {
     text-decoration: none;
   }
 
+.btn:hover {
+    background-color: darkgray;
+    color: white;
+}
+
   .current {
     background-color: darkgray;
     color: white;
